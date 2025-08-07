@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .head {
+            background-color: #f0f0f0;
+            padding: 20px;
+            height: 100px;
+            
+        }
+        .head img {
+            float: left;
+            margin-right: 20px;
+        }
+        .head h1 {
+           text-align: center;
+           font-size: xx-large;
+           align-items: center;
+        }
+        .head em {
+            display: block;
+            text-align: center;
+            font-style: italic;
+            margin-top: 5px;
+        }
+        .head nav {
+            list-style: none;
+            display: flex;
+            justify-content: right;
+            gap: 20px;
+            margin-right: 0px;
+            font-size: larger;
+            
+        }
+        .head nav li a{
+            display: inline;
+            text-decoration: none;
+            color: black;
+
+        }
+        .head nav li a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        .ho{
+            text-align: center;
+            font-size: xx-large;
+            margin-top: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin-top: 30px;
+            background-color: rgba(29, 244, 244, 0.951);
+            padding: 30px;
+        }
+        .container h2{
+            text-align: center;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        .pic1 {
+            background-color: #fff;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            width: 280px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .pic1 img {
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .detail {
+            display: none;
+        }
+        .pic1:hover .detail {
+            display:block;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius:5px ;
+            margin-top: 10px;
+            line-height: 35px;
+            }
+            
+            
+           
+           
+        
+        
+    </style>
+</head>
+<body>
+    <div class="head">
+        <img src="QUBERTA LOGO.png" style="width: 100px; border-radius: 50px;" alt="logo">
+        <h1>Qubetra Pvt Ltd</h1>
+        <em>Where Vision Meets Precision</em>
+        <nav>
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">About</a></li>
+            <li><a href="#" target="_blank">Service</a></li>
+            <li><a href="#" target="_blank">Contact</a></li>
+        </nav>
+    </div>
+    <h1 class="ho">Our Employess Are</h1>
+    <marquee behavior="scroll" direction="left">Our Company Top 4 Employess</marquee>
+    <div class="container">
+        <div class="pic1">
+            <img src="img1.jpg" style="width: 230px;" height="300px" alt="my pic">
+            <h2>Ramasamy</h2><br>
+            <div class="detail">
+                <p>Name : <b>Ramasamy</b> </p>
+                <p>Desination : <b>FullStack Developer</b></p>
+                <p>Company Name: <b>Qubetra Pvt Ltd</b></p>
+                <p>Blood Group : <b>0<sup>+</b></p>
+                <P>Onsite Projects : <b>5+ Projects</b></P>
+                <p><a href="#" target="_blank">Know More About Ramasamy</a></p>
+
+            </div>
+
+        </div>
+
+        <div class="pic1">
+            <img src="img2.jpg" style="width: 250px;" height="300px" alt="my pic">
+            <h2>Madhavan</h2><br>
+            <div class="detail">
+                <p>Name : <b>Madhavan</b> </p>
+                <p>Desination : <b>Data Scientist</b></p>
+                <p>Company Name: <b>Qubetra Pvt Ltd</b></p>
+                <p>Blood Group : <b>AB<sup>+</b></p>
+                <P>Onsite Projects : <b>7+ Projects</b></P>
+                <p><a href="#" target="_blank">Know More About Madhavan </a></p>
+
+            </div>
+        </div>
+        
+        <div class="pic1">
+            <img src="img3.jpg" style="width: 250px;" height="300px" alt="my pic">
+            <h2>Rohit</h2><br>
+            <div class="detail">
+                <p>Name : <b>Rohit</b> </p>
+                <p>Desination : <b>Backend Developer</b></p>
+                <p>Company Name: <b>Qubetra Pvt Ltd</b></p>
+                <p>Blood Group : <b>B<sup>+</b></p>
+                <P>Onsite Projects : <b>6+ Projects</b></P>
+                <p><a href="#" target="_blank">Know More About Rohit</a></p>
+
+            </div>
+        </div>
+        <div class="pic1">
+            <img src="img4.jpeg" style="width: 250px;" height="300px" alt="my pic">
+            <h2>Palani</h2><br>
+            <div class="detail">
+                <p>Name : <b>Palani</b> </p>
+                <p>Desination : <b>Frontend Developer</b></p>
+                <p>Company Name: <b>Qubetra Pvt Ltd</b></p>
+                <p>Blood Group : <b>O<sup>-</b></p>
+                <P>Onsite Projects : <b>9+ Projects</b></P>
+                <p><a href="#" target="_blank">Know More About Palani</a></p>
+
+            </div>
+        </div>
+        
+
+    </div><br>
+    <h3 style="height: 25px; margin-top: 15px;">More About :</h3>
+    <p>The company benefits from the dedication and strong work ethic of its employees. They drive achievements by pushing boundaries and striving for excellence. The company encourages an environment where people excel and pursue continuous learning and development. This collaborative spirit fosters mutual growth and innovation, helping the company exceed industry demands. A hard-working team, combined with a culture of ongoing learning, creates a dynamic and resilient workforce, leading the company towards sustained success.</p><br><br>
+
+    <footer>
+        <p style="text-align: center; margin-top: 20px;">&copy; 2025 Qubetra Pvt Ltd. All rights reserved.</p><br>
+    
+</body>
+</html>
